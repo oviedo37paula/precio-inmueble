@@ -1,0 +1,7 @@
+git init
+git add .
+git commit -m "first push"
+# Reemplaza <nombre_repositorio> por el nombre que quieras para tu repositorio en GitHub
+git remote add origin https://github.com/<usuario>/<nombre_repositorio>.git
+git branch -M main
+git push -u origin main
